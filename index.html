@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html class="no-js production" lang="fr-CA" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    <style id="mph/contact-form-inline-css" type="text/css">
+        .wp-block-mph-contact-form {
+            padding: 20px;
+            background-color: #fff
+        }
+        
+        .wp-block-mph-contact-form .form-error {
+            margin-bottom: 20px;
+            color: #721c24;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px
+        }
+        
+        .wp-block-mph-contact-form .form-success {
+            margin-bottom: 20px;
+            color: #155724;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 5px
+        }
+        
+        .wp-block-mph-contact-form .clearfix {
+            clear: both
+        }
+        
+        .wp-block-mph-contact-form .col50 {
+            float: left;
+            width: 49%;
+            margin-bottom: 20px
+        }
+        
+        .wp-block-mph-contact-form .col50-right {
+            float: right;
+            width: 49%;
+            margin-bottom: 20px
+        }
+        
+        .wp-block-mph-contact-form .col100 {
+            width: 100%;
+            float: none;
+            margin-bottom: 20px
+        }
+        
+        .wp-block-mph-contact-form .col100-casl {
+            width: 100%;
+            float: none;
+            margin-bottom: 20px;
+            position: relative;
+            height: 30px
+        }
+        
+        .wp-block-mph-contact-form label {
+            display: block !important
+        }
+        
+        .wp-block-mph-contact-form label {
+            padding: 10px 5px
+        }
+        
+        .wp-block-mph-contact-form label span {
+            color: red;
+            margin-left: 5px
+        }
+        
+        .wp-block-mph-contact-form input {
+            width: 100%
+        }
+        
+        .wp-block-mph-contact-form textarea {
+            width: 100%;
+            height: 150px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border-radius: 4px;
+            background-color: #fff;
+            font-size: 16px;
+            resize: none
+        }
+        
+        .wp-block-mph-contact-form input[type=checkbox] {
+            width: 20px;
+            border: 1px solid red;
+            float: left
+        }
+        
+        .wp-block-mph-contact-form .casl {
+            float: left;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: -3px;
+            left: 20px
+        }
+        
+        .wp-block-mph-contact-form .button {
+            margin-top: 15px;
+            min-width: 175px
+        }
+    </style>
+    <link rel="stylesheet" id="mph-style-css" href="style_1.css" type="text/css" media="all">
+    <link rel="stylesheet" id="m3-calculators-css" href="calculators.css" type="text/css" media="all">
+    <link rel="preload" as="script" href="https://sdk.privacy-center.org/e874aa71-5754-45b6-a3e4-b63a7e0ad1cf/loader.js?target_type=notice&amp;target=xD8qj6Lc">
+
+    <style>
+        @font-face {
+            font-family: 'Gilmer';
+            src: url('fonts/GilmerRegular.otf') format('opentype'), url('fonts/GilmerRegular.ttf') format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Gilmer Light';
+            font-weight: 300;
+            src: url('fonts/GilmerLight.otf') format('opentype'), url('fonts/GilmerLight.ttf') format('truetype');
+        }
+    </style>
+
+</head>
+
+<body class="page-template page-template-page-affordability-calc page-template-page-affordability-calc-php page page-id-8604 mph-theme" data-bs-theme="mph">
+
+    <script>
+        window.M3_BOSS_RATES = {
+            "ours": [{
+                "brand": "MP",
+                "province": "AB",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 0,
+                "fixed1Yr": 0,
+                "fixed2Yr": 0,
+                "fixed3Yr": 0,
+                "fixed4Yr": 0,
+                "fixed5Yr": 0,
+                "fixed7Yr": 0,
+                "fixed10Yr": 0
+            }, {
+                "brand": "MP",
+                "province": "BC",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 0,
+                "fixed1Yr": 0,
+                "fixed2Yr": 0,
+                "fixed3Yr": 0,
+                "fixed4Yr": 0,
+                "fixed5Yr": 0,
+                "fixed7Yr": 0,
+                "fixed10Yr": 0
+            }, {
+                "brand": "MP",
+                "province": "MB",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 0,
+                "fixed1Yr": 0,
+                "fixed2Yr": 0,
+                "fixed3Yr": 0,
+                "fixed4Yr": 0,
+                "fixed5Yr": 0,
+                "fixed7Yr": 0,
+                "fixed10Yr": 0
+            }, {
+                "brand": "MP",
+                "province": "NB",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 6.25,
+                "fixed1Yr": 6.63999999999999968025576890795491635799407958984375,
+                "fixed2Yr": 6.089999999999999857891452847979962825775146484375,
+                "fixed3Yr": 5.44000000000000039079850466805510222911834716796875,
+                "fixed4Yr": 5.339999999999999857891452847979962825775146484375,
+                "fixed5Yr": 5.13999999999999968025576890795491635799407958984375,
+                "fixed7Yr": 5.7400000000000002131628207280300557613372802734375,
+                "fixed10Yr": 6.20000000000000017763568394002504646778106689453125
+            }, {
+                "brand": "MP",
+                "province": "NL",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 0,
+                "fixed1Yr": 0,
+                "fixed2Yr": 0,
+                "fixed3Yr": 0,
+                "fixed4Yr": 0,
+                "fixed5Yr": 0,
+                "fixed7Yr": 0,
+                "fixed10Yr": 0
+            }, {
+                "brand": "MP",
+                "province": "NS",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 0,
+                "fixed1Yr": 0,
+                "fixed2Yr": 0,
+                "fixed3Yr": 0,
+                "fixed4Yr": 0,
+                "fixed5Yr": 0,
+                "fixed7Yr": 0,
+                "fixed10Yr": 0
+            }, {
+                "brand": "MP",
+                "province": "NT",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 0,
+                "fixed1Yr": 0,
+                "fixed2Yr": 0,
+                "fixed3Yr": 0,
+                "fixed4Yr": 0,
+                "fixed5Yr": 0,
+                "fixed7Yr": 0,
+                "fixed10Yr": 0
+            }, {
+                "brand": "MP",
+                "province": "ON",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 6.25,
+                "fixed1Yr": 6.63999999999999968025576890795491635799407958984375,
+                "fixed2Yr": 6.089999999999999857891452847979962825775146484375,
+                "fixed3Yr": 5.44000000000000039079850466805510222911834716796875,
+                "fixed4Yr": 5.339999999999999857891452847979962825775146484375,
+                "fixed5Yr": 5.13999999999999968025576890795491635799407958984375,
+                "fixed7Yr": 5.7400000000000002131628207280300557613372802734375,
+                "fixed10Yr": 6.20000000000000017763568394002504646778106689453125
+            }, {
+                "brand": "MP",
+                "province": "PE",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 0,
+                "fixed1Yr": 0,
+                "fixed2Yr": 0,
+                "fixed3Yr": 0,
+                "fixed4Yr": 0,
+                "fixed5Yr": 0,
+                "fixed7Yr": 0,
+                "fixed10Yr": 0
+            }, {
+                "brand": "MP",
+                "province": "QC",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 6.25,
+                "fixed1Yr": 6.63999999999999968025576890795491635799407958984375,
+                "fixed2Yr": 6.089999999999999857891452847979962825775146484375,
+                "fixed3Yr": 5.44000000000000039079850466805510222911834716796875,
+                "fixed4Yr": 5.339999999999999857891452847979962825775146484375,
+                "fixed5Yr": 5.13999999999999968025576890795491635799407958984375,
+                "fixed7Yr": 5.7400000000000002131628207280300557613372802734375,
+                "fixed10Yr": 6.20000000000000017763568394002504646778106689453125
+            }, {
+                "brand": "MP",
+                "province": "SK",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 0,
+                "fixed1Yr": 0,
+                "fixed2Yr": 0,
+                "fixed3Yr": 0,
+                "fixed4Yr": 0,
+                "fixed5Yr": 0,
+                "fixed7Yr": 0,
+                "fixed10Yr": 0
+            }, {
+                "brand": "MP",
+                "province": "YT",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 0,
+                "fixed1Yr": 0,
+                "fixed2Yr": 0,
+                "fixed3Yr": 0,
+                "fixed4Yr": 0,
+                "fixed5Yr": 0,
+                "fixed7Yr": 0,
+                "fixed10Yr": 0
+            }, {
+                "brand": "MP",
+                "province": "NU",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 0,
+                "fixed1Yr": 0,
+                "fixed2Yr": 0,
+                "fixed3Yr": 0,
+                "fixed4Yr": 0,
+                "fixed5Yr": 0,
+                "fixed7Yr": 0,
+                "fixed10Yr": 0
+            }],
+            "posted": {
+                "brand": null,
+                "province": "POSTED",
+                "open1Yr": 7.70000000000000017763568394002504646778106689453125,
+                "variable5Yr": 7.20000000000000017763568394002504646778106689453125,
+                "fixed1Yr": 8.03999999999999914734871708787977695465087890625,
+                "fixed2Yr": 7.63999999999999968025576890795491635799407958984375,
+                "fixed3Yr": 7.2400000000000002131628207280300557613372802734375,
+                "fixed4Yr": 7.04000000000000003552713678800500929355621337890625,
+                "fixed5Yr": 7.04000000000000003552713678800500929355621337890625,
+                "fixed7Yr": 7.20000000000000017763568394002504646778106689453125,
+                "fixed10Yr": 7.69000000000000039079850466805510222911834716796875
+            }
+        };
+        window.M3_BOSS_SITE = null;
+    </script>
+    <section class="calc-tool">
+        <div class="affordability-calc max-width" data-image-url=""></div>
+    </section>
+    <script type="text/javascript" id="m3-forms-js-extra">
+        var __WP_CONFIG__ = {
+            "lang": "fr",
+            "ajaxUrl": "https:\/\/www.multi-prets.com\/wp-admin\/admin-ajax.php",
+            "ajaxNonce": "c6fa63090b",
+            "googleRecaptchaKey": "6Lfcp9IZAAAAAOwzreB9c0SZXVOP-w7Mm5cUDRjc",
+            "m3BossSite": null,
+            "applicationSuccessRedirect": "1",
+            "supportPhoneNumber": "1 800 798-7738",
+            "blogid": "2"
+        };
+    </script>
+    <script type="text/javascript" src="calculators.js" id="m3-calculators-js"></script>
+</body>
+
+</html>
